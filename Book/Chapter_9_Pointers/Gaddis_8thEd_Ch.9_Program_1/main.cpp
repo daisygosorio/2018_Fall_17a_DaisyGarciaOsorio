@@ -24,19 +24,14 @@ using namespace std;
 //Program Execution Begins Here
 int main(int argc, char** argv) {
     //Declare all Variables Here
-    int x=2;
+    int x=206;
     
-    //Input or initialize values Here
+    //Output Located Here
+    //Address of variable x is returned using address operator (&)
+    //Keep in mind that address of x will be displayed in hexadecimal
     cout<<"The address of x is "<<&x<<endl;
     cout<<"The sie of x is "<<sizeof(x)<<" bytes"<<endl;
     cout<<"The value in x is "<<x<<endl;
-    
-    
-    
-    //Process/Calculations Here
-   
-    
-    //Output Located Here
    
     //Exit
     return 0;
